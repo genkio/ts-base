@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {},
+  "rules": {
+    "array-type": { "options": ["array"], "severity": "warning" },
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "class-name": { "severity": "warning" },
+    "comment-format": { "severity": "warning" },
+    "curly": { "options": [true, "ignore-same-line"], "severity": "warning" },
+    "max-classes-per-file": [true, 5],
+    "member-access": { "options": [true, "no-public"], "severity": "warning" },
+    "member-ordering": {
+      "options": [true, "statics-first"],
+      "severity": "warning"
+    },
+    "no-async-without-await": [true],
+    "no-console": [false],
+    "no-string-literal": { "severity": "warning" },
+    "object-literal-key-quotes": [true, "as-needed"],
+    "trailing-comma": "never",
+    "variable-name": { "severity": "warning" }
+  },
+  "rulesDirectory": []
+}
